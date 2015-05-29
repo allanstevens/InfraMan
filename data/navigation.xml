@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu name="All" xpath="/list/item">
+  <section name="Location 1" xpath="/list/item[@location='Location 1']">
+    <item name="Servers" xpath="/list/item[@location='Location 1'][@catergory='Servers']"/>
+    <item name="Management" xpath="/list/item[@location='Location 1'][@catergory='Management']"/>
+  </section>
+  <section name="Location 2" xpath="/list/item[@location='Location 2']">
+    <item name="Servers" xpath="/list/item[@location='Location 2'][@catergory='Servers']"/>
+    <item name="Management" xpath="/list/item[@location='Location 2'][@catergory='Management']"/>
+  </section>
+  <section name="Location 3" xpath="/list/item[@location='Location 3']">
+    <item name="Servers" xpath="/list/item[@location='Location 3'][@catergory='Servers']"/>
+    <item name="Management" xpath="/list/item[@location='Location 3'][@catergory='Management']"/>
+  </section>
+  <section name="Other" xpath="/list/item[@location='Other']">
+    <item name="General" xpath="/list/item[@location='Other'][@catergory='General']"/>
+    <item name="Monitoring" xpath="/list/item[@location='Other'][@catergory='Monitoring']"/>
+  </section>
+</menu>

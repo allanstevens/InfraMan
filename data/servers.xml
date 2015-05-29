@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<list>
+  <!-- example servers -->
+  <item guid="e269d005-0d77-4f9c-b95f-e240bb2ae96d" catergory="Servers" location="Location 1" name="SERVER1" ip="192.168.1.10" iloip="10.1.168.192" url="" description="Server Example 1" />
+  <item guid="b03ad9fe-dea5-4aea-8513-d7746ab17658" catergory="Servers" location="Location 2" name="SERVER2" ip="192.168.1.10" iloip="10.1.168.192" url="" description="Server Example 2" />
+  <item guid="8ba71317-4f11-4a6f-b971-d240ec14ab9a" catergory="Servers" location="Location 3" name="SERVER3" ip="192.168.1.10" iloip="10.1.168.192" url="" description="Server Example 3" />
+  <item guid="f3e6f5d2-ab61-4b7d-bfa3-62b6e343ef68" catergory="Servers" location="Location 1" name="SERVER4" ip="192.168.1.10" iloip="10.1.168.192" url="" description="Server Example 4" />
+  <item guid="6f6b981b-b1fb-4952-a21c-08842ba0b434" catergory="Servers" location="Location 2" name="SERVER5" ip="192.168.1.10" iloip="10.1.168.192" url="" description="Server Example 5" />
+  <!-- example management severs -->
+  <item guid="3d4188f5-3f12-4857-b0a1-7263f4af92a2" catergory="Management" location="Location 3" name="SERVER6" ip="192.168.1.20" iloip="" url="" description="Management Server Example 6" />
+  <item guid="3f2bf68e-bd11-4a29-b501-e69d6687765c" catergory="Management" location="Location 1" name="SERVER7" ip="192.168.1.20" iloip="" url="" description="Management Server Example 7" />
+  <item guid="e0a82a0a-cdf7-4d02-9ab2-84967e3da5de" catergory="Management" location="Location 2" name="SERVER8" ip="192.168.1.20" iloip="" url="" description="Management Server Example 8" />
+  <item guid="f8c77d3e-7a54-4a9b-b700-d4391750bf89" catergory="Management" location="Location 3" name="SERVER9" ip="192.168.1.20" iloip="" url="" description="Management Server Example 9" />
+  <item guid="8d05844a-09ac-4ec0-b6a1-aa8691f87efb" catergory="Management" location="Location 1" name="SERVER0" ip="192.168.1.20" iloip="" url="" description="Management Server Example 10" />
+  <!-- example monitoring servers-->
+  <item guid="b93709a0-7bd8-47c9-a1ef-e3215d0e9da0" catergory="Monitoring" location="Location 2" name="MONITOR1" ip="" iloip="" url="http://www.digitalgeek.me" description="Monitoring Example 1" />
+  <item guid="18c5ab1c-7c54-4cfc-9669-1adbfcc1af67" catergory="Monitoring" location="Location 3" name="MONITOR2" ip="" iloip="" url="http://www.digitalgeek.me" description="Monitoring Example 2" />
+  <item guid="6ea1622e-493a-4686-a046-56ee52ae5e4b" catergory="Monitoring" location="Location 1" name="MONITOR3" ip="" iloip="" url="http://www.digitalgeek.me" description="Monitoring Example 3" />
+  <item guid="663cd236-ed52-413a-80a1-d8bcbb81a8ef" catergory="Monitoring" location="Location 2" name="MONITOR4" ip="" iloip="" url="http://www.digitalgeek.me" description="Monitoring Example 4" />
+  <item guid="c135fdeb-0d5e-48e5-b82b-f56d3e014060" catergory="Monitoring" location="Location 3" name="MONITOR5" ip="" iloip="" url="http://www.digitalgeek.me" description="Monitoring Example 5" />
+  <!-- example general stuff -->
+  <item guid="c016ca1f-c9d3-49d3-bed5-bef26ea7da2a" catergory="General" location="Other" name="Other Site 1" ip="" iloip="" url="http://www.digitalgeek.me" description="Other Site Example 1" />
+  <item guid="fe65d293-217a-405c-9e7c-b02d6b5d5f54" catergory="General" location="Other" name="Other Site 2" ip="" iloip="" url="http://www.digitalgeek.me" description="Other Site Example 2" />
+  <item guid="440c32eb-780c-4328-aac5-a2a97a326cc2" catergory="General" location="Other" name="Other Site 3" ip="" iloip="" url="http://www.digitalgeek.me" description="Other Site Example 3" />
+  <item guid="3cc97fde-79d3-4715-9fee-15715e82ec54" catergory="General" location="Other" name="Other Site 4" ip="" iloip="" url="http://www.digitalgeek.me" description="Other Site Example 4" />
+  <item guid="27cc4b1a-8fba-450e-b9ec-3f899726dfd2" catergory="General" location="Other" name="Other Site 5" ip="" iloip="" url="http://www.digitalgeek.me" description="Other Site Example 5" />
+</list>

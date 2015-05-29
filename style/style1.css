@@ -1,0 +1,175 @@
+﻿body
+{
+	font-family:Arial;
+	font-size:12px;
+	margin:0px;
+	color:#000000;
+}
+
+a
+{
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover
+{
+	color:#E92539;
+	text-decoration:underline;
+}
+
+.wrapper 
+{    
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:100%;
+    width:100%;
+    position: relative;
+}
+* html .wrapper 
+{
+    width:100%;
+    height:100%;
+}
+
+.usefullinks
+{
+	background: url(../image/Bullit.gif) 13px -3px no-repeat;
+	padding-left:35px;
+	color:#000000;
+	text-decoration:none;
+	font-weight:normal;
+	line-height:20px;
+}
+
+.numberitems
+{
+	position:absolute;
+	right:10px;
+}
+
+#header
+{
+	width:100%;
+	height:100px;
+	background: #E92539 url(../image/topbar.gif) repeat-x bottom;
+	margin-bottom:-10px;
+	
+}
+
+#header h1
+{	
+	background: url(../image/logo.jpg) no-repeat 15px 20px;
+	font-family: Arial;
+	font-size:30px;
+	color:#ffffff;
+	padding-right:20px;
+	padding-top:15px;
+	text-align:right;
+	margin:0px;
+}
+
+/** html #sidemenu{
+    
+}*/
+
+#sidemenu
+{	
+	float:left;	
+	width:160px;
+}
+
+#menu
+{
+	background-color:#FFE5E6;
+	width:100%;
+	margin-left:10px;		
+}
+#menu .box_title
+{
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+	line-height:20px;
+	padding-left:20px;
+	padding-top:5px;
+	padding-bottom:-5px;
+}
+
+#menu .box_content
+{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#menu .box_tl
+{	
+	background-image: url(../image/box_tl.gif);
+	background-repeat: no-repeat;
+	padding:0px;
+	margin-top:0px;
+	float:left;
+	width:10px;
+	height:10px;
+}
+#menu .box_tr
+{	
+	background-image: url(../image/box_tr.gif);
+	background-repeat: no-repeat;
+	padding:0px;
+	margin-top:0px;
+	float:right;
+	width:10px;
+	height:10px;
+}
+#menu .box_bl
+{	
+	background-image: url(../image/box_bl.gif);
+	background-repeat: no-repeat;
+	margin-top:-10px;
+	padding:0px;
+	float:left;
+	width:10px;
+	height:10px;
+}
+#menu .box_br
+{	
+	background-image: url(../image/box_br.gif);
+	background-repeat: no-repeat;
+	margin-top:-10px;
+	padding:0px;
+	float:right;
+	width:10px;
+	height:10px;
+}
+
+#mainbody{
+    margin-left:180px;
+    margin-right:10px;
+    height:100%;
+}
+* html #mainbody{
+    height:100%;
+}
+
+.gridrow th
+{
+    background-color:#E92539;
+    border: #E92539 0px solid;
+    color:#ffffff;
+    text-align:left;
+    padding:2px;
+    display:none;
+ }
+
+.gridrow td
+{
+    border: #E92539 0px solid;
+    padding:2px;
+}
+
+.gridrow
+{
+    border: #E92539 0px solid;
+}
