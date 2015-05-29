@@ -365,10 +365,13 @@ namespace AllanStevens.InfrastructureManagement
 
         string BuildQuickLinks()
         {
+            var location = "Other";
+            var catergory = "General";
+
             StringBuilder rtn = new StringBuilder();
 
             XmlDocument myXMLDoc = this.XmlDataSourceServerLists.GetXmlDocument();
-            XmlNodeList nodesToDisplay = myXMLDoc.SelectNodes("/list/item[@location='Other'][@catergory='Monitoring']");
+            XmlNodeList nodesToDisplay = myXMLDoc.SelectNodes("/list/item[@location='" + location + "'][@catergory='" + catergory + "']");
             foreach (XmlNode node in nodesToDisplay)
             {
                 rtn.AppendLine("<a class=\"usefullinks\" href=\"" + node.Attributes["url"].Value.ToString() + "\" target=\"_blank\" >" + node.Attributes["name"].Value.ToString() + "</a>");
@@ -379,7 +382,7 @@ namespace AllanStevens.InfrastructureManagement
             else
             {
                 return "<div id=\"sidemenu\"><div id=\"menu\"><div class=\"box_tl\"></div><div class=\"box_tr\"></div>" +
-                        "<div class=\"box_title\">Monitoring</div>" +
+                        "<div class=\"box_title\">" + catergory + " links</div>" +
                         "<div class=\"box_content\">" + rtn.ToString() + "</div>" +
                         "<div class=\"box_bl\"></div><div class=\"box_br\"></div></div>";
             }
