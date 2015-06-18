@@ -126,10 +126,10 @@
                     </asp:TemplateField>
                     <asp:TemplateField HeaderText="" >
                         <ItemTemplate>                        
-                        <%# Infrastructure_Management.Common.BuildLink(Eval("ip").ToString(), Infrastructure_Management.BuildLinkTypes.RDP) %>
-                        <%# Infrastructure_Management.Common.BuildLink(Eval("iloip").ToString(), Infrastructure_Management.BuildLinkTypes.ILO) %>
-                        <%# Infrastructure_Management.Common.BuildLink(Eval("url").ToString(), Infrastructure_Management.BuildLinkTypes.URL) %>
-                         </ItemTemplate>
+                          <%# AllanStevens.InfrastructureManagement.Common.BuildLink(Eval("ip").ToString(), AllanStevens.InfrastructureManagement.BuildLinkTypes.RDP) %>
+                          <%# AllanStevens.InfrastructureManagement.Common.BuildLink(Eval("iloip").ToString(), AllanStevens.InfrastructureManagement.BuildLinkTypes.ILO) %>
+                          <%# AllanStevens.InfrastructureManagement.Common.BuildLink(Eval("url").ToString(), AllanStevens.InfrastructureManagement.BuildLinkTypes.URL) %>                      
+                        </ItemTemplate>
                         <ItemStyle Width="0px" Wrap="false" />
                     </asp:TemplateField>
                     <asp:TemplateField ShowHeader="False">
